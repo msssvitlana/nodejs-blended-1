@@ -2,6 +2,7 @@
   "name": "nodejs-blended-1",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "node ./src/index.js",
@@ -15,7 +16,6 @@
     "create-products-files": "node src/scripts/createProductsFiles.js"
   },
   "repository": {
-    "type": "module",
     "url": "git+https://github.com/msssvitlana/nodejs-blended-1.git"
   },
   "keywords": [],
